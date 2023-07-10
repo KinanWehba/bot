@@ -138,3 +138,4 @@ if __name__ == '__main__':
 
     app.add_handler(msg_handler)
     app.run_polling()
+print("hi")
