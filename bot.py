@@ -103,6 +103,7 @@ async def msg_link(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await context.bot.send_message(
         chat_id=userc_chatid,
         text=f"{message_text}",
+
 #        text=f"**رقم التعريف الخاص بك هو : #{bot_msg}**\n\nيمكنك نشره لكي يتمكن المعجبين من التواصل معك\n\nكما يمكنك ان تتواصل مع الكراش بكتابة # ثم رقم تعريفه الشخصي\n\nسيتم حفظ معرف الكراش دائما اذا اردت تعديل رقم التعريف اضغط على /AddCrush\n\nاو /help للمساعدة",
     )
              
